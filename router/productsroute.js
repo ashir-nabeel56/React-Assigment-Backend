@@ -42,31 +42,7 @@ router.get("/category/:categoryName", async (req, res) => {
 // POST - Add new product
 router.post("/", async (req, res) => {
   try {
-    const {
-      productId,
-      title,
-      price,
-      oldPrice,
-      discount,
-      rating,
-      imageUrl,
-      description,
-      category,
-      section,
-    } = req.body;
-
-    const newProduct = new Product({
-      productId,
-      title,
-      price,
-      oldPrice,
-      discount,
-      rating,
-      imageUrl,
-      description,
-      category,
-      section,
-    });
+    const newProduct = new Product(req.body);
 
     const savedProduct = await newProduct.save();
 
@@ -74,6 +50,7 @@ router.post("/", async (req, res) => {
       message: "Product added successfully",
       product: savedProduct,
     });
+
   } catch (error) {
     console.log("ADD PRODUCT ERROR:", error.message);
 
@@ -83,5 +60,4 @@ router.post("/", async (req, res) => {
     });
   }
 });
-
 module.exports = router;
