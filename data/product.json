@@ -195,5 +195,101 @@
     "rating": 5.0,
     "imageUrl": "https://tiimg.tistatic.com/fp/1/008/397/mens-striped-long-sleeve-black-with-white-o-neck-cotton-t-shirt-384.jpg"
   }
-]
+],
+  "casual": [
+    {
+      "id": "c1",
+      "title": "Gradient Graphic T-shirt",
+      "price": 145,
+      "originalPrice": 180,
+      "discount": "-20%",
+      "rating": 4.5,
+      "imageUrl": "https://via.placeholder.com/300x400",
+      "description": "Casual daily wear t-shirt with modern graphic design.",
+      "category": "casual"
+    },
+    {
+      "id": "c2",
+      "title": "Polo with Contrast Trims",
+      "price": 212,
+      "originalPrice": 242,
+      "discount": "-12%",
+      "rating": 4.0,
+      "imageUrl": "https://via.placeholder.com/300x400",
+      "description": "Classic fit polo shirt ideal for relaxed weekend outings.",
+      "category": "casual"
+    }
+  ],
+  "formal": [
+    {
+      "id": "f1",
+      "title": "Classic Fit Formal Shirt",
+      "price": 260,
+      "originalPrice": 300,
+      "discount": "-15%",
+      "rating": 4.8,
+      "imageUrl": "https://via.placeholder.com/300x400",
+      "description": "Premium cotton formal shirt suitable for office and business events.",
+      "category": "formal"
+    },
+    {
+      "id": "f2",
+      "title": "Tailored Formal Trousers",
+      "price": 310,
+      "originalPrice": 350,
+      "discount": "-10%",
+      "rating": 4.6,
+      "imageUrl": "https://via.placeholder.com/300x400",
+      "description": "Slim fit formal trousers designed for maximum comfort and style.",
+      "category": "formal"
+    }
+  ],
+  "party": [
+    {
+      "id": "p1",
+      "title": "Black Velvet Party Blazer",
+      "price": 450,
+      "originalPrice": 500,
+      "discount": "-10%",
+      "rating": 4.9,
+      "imageUrl": "https://via.placeholder.com/300x400",
+      "description": "Elegant velvet blazer crafted for special occasions and evening parties.",
+      "category": "party"
+    },
+    {
+      "id": "p2",
+      "title": "Printed Silk Party Shirt",
+      "price": 190,
+      "originalPrice": 220,
+      "discount": "-13%",
+      "rating": 4.4,
+      "imageUrl": "https://via.placeholder.com/300x400",
+      "description": "Smooth silk fabric shirt with trendy party prints.",
+      "category": "party"
+    }
+  ],
+  "gym": [
+    {
+      "id": "g1",
+      "title": "Dry-Fit Training T-Shirt",
+      "price": 85,
+      "originalPrice": 100,
+      "discount": "-15%",
+      "rating": 4.7,
+      "imageUrl": "https://via.placeholder.com/300x400",
+      "description": "Breathable moisture-wicking t-shirt for intense workout sessions.",
+      "category": "gym"
+    },
+    {
+      "id": "g2",
+      "title": "Pro Performance Gym Joggers",
+      "price": 120,
+      "originalPrice": 150,
+      "discount": "-20%",
+      "rating": 4.6,
+      "imageUrl": "https://via.placeholder.com/300x400",
+      "description": "Stretchable and durable joggers built for active training.",
+      "category": "gym"
+    }
+  ]
 }
