@@ -26,12 +26,16 @@ app.get("/", (req, res) => {
   res.send("E-Commerce Backend is running");
 });
 
-const PORT = process.env.PORT || 1000;
-app.listen(PORT, () => {
-  console.log(`BACKEND IS RUNNING AT PORT ${PORT}`);
-});
-
+// Vercel ke liye - Serverless function as export
 module.exports = app;
+
+// Local development ke liye
+if (process.env.NODE_ENV !== "production") {
+  const PORT = process.env.PORT || 1000;
+  app.listen(PORT, () => {
+    console.log(`BACKEND IS RUNNING AT PORT ${PORT}`);
+  });
+}
 
 
 
